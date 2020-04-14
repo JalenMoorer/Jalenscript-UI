@@ -1,0 +1,11 @@
+{
+  "name": "jalenscript-boilerplate",
+  "version": "0.0.0",
+  "description": "Jalenscript base boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jalen Moorer",
+  "license": "ISC"
+}
