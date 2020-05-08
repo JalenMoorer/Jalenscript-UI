@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import { logoData, navigationData } from './data';
 import Header from './Header';
 
 export default { title: 'Header' };
@@ -41,6 +42,8 @@ export const HeaderNavigation = () => {
 
     return (
     <Header
+        logoData={logoData}
+        navigationData={navigationData}
         onOpenMobileNav={handleOpenMobileNav}
         oncloseMobileNav={handleCloseMobileNav}
         mobileNav={mobileNav}
