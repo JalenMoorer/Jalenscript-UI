@@ -1,0 +1,76 @@
+.eyebrow {
+    color: #58585A;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.contentHeading {
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #404040;
+    margin-top: .5rem;
+    margin-bottom: 0;
+}
+
+.contentCopy {
+    color: #404040;
+    margin-top: 1rem;
+}
+
+.contentCard {
+    margin-bottom: 3rem;
+}
+
+.contentHr {
+    background: #332d2d;
+    width: 3.5rem;
+    border: 1px solid;
+    margin: 1rem 0;
+    height: .2rem;
+}
+
+@media (min-width: 0) {
+    .eyebrow {
+        font-size: 16px;
+    }
+
+    .contentHeading {
+        font-size: 32px;
+    }
+
+    .contentCopy {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) {
+    .eyebrow {
+        font-size: 22px;
+    }
+
+    .contentHeading {
+        font-size: 36px;
+    }
+
+    .contentCopy {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .contentCard {
+        margin: 3rem;
+    }
+
+    .eyebrow {
+        font-size: 24px;
+    }
+
+    .contentHeading {
+        font-size: 42px;
+    }
+
+    .contentCopy {
+        font-size: 28px;
+    }
+}
